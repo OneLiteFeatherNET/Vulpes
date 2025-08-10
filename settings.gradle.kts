@@ -23,7 +23,7 @@ dependencyResolutionManagement {
     versionCatalogs {
         create("libs") {
             version("aonyx-bom", "0.5.0")
-            version("mycelium-bom", "1.4.2")
+            version("mycelium-bom", "1.4.3")
 
             // Minestom
             library("mycelium-bom", "net.onelitefeather", "mycelium-bom").versionRef("mycelium-bom")
