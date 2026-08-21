@@ -6,7 +6,14 @@
   "packages": {
     ".": {
       "package-name": "Vulpes",
-      "changelog-path": "CHANGELOG.md"
+      "changelog-path": "CHANGELOG.md",
+      "extra-files": [
+        {
+          "type": "generic",
+          "path": "build.gradle.kts"
+        }
+      ]
     }
-  }
+  },
+  "bootstrap-sha": "fefabe069827574779cea3c63cb62066fd42c340"
 }

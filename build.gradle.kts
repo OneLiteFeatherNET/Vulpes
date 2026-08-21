@@ -3,6 +3,8 @@ plugins {
     jacoco
     `maven-publish`
 }
+
+version = "1.0.0" // x-release-please-version
 repositories {
     mavenCentral()
 }
